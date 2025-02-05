@@ -1,0 +1,786 @@
+HELO
+CPUI
+L1CI
+HELO
+CPUI
+L1CI
+DRAM
+----
+PHYS
+STRF
+400H
+PHYE
+DDR3
+SIZ4
+SIZ3
+DINT
+USYN
+LSYN
+MFAS
+LMBE
+RACE
+PASS
+----
+ZBSS
+CODE
+DATA
+L12F
+MAIN
+FPS0
+SVOL
+NGEO
+FVLY
+FVLY
+RVOL
+J2EP
+
+
+CFE version 1.0.38-114.185 for BCM963268 (32bit,SP,BE)
+Build Date: Fri Feb 12 16:14:38 CET 2016 (g108848@rmm08064)
+Copyright (C) 2000-2011 Broadcom Corporation.
+
+CFE (soft test)
+NAND flash device: name Micron MT29F1G08AAC, id 0x2cf1 block 128KB size 131072KB
+Access type is MDIO_BUS
+External switch id = 53125 
+Board Id = F@ST3865b
+External switch (2) for Quantenna enabled
+Chip ID: BCM63168D0, MIPS: 400MHz, DDR: 400MHz, Bus: 200MHz
+Main Thread: TP0
+Memory Test Passed
+Total Memory: 268435456 bytes (256MB)
+Boot Address: 0xb8000000
+
+NextLevelBoot U-boot @ 0x8ff00000
+
+Correctable ECC Error detected: addr=0x0001ea00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0001ea00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0001ea00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00100000, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Board IP address                  : 192.168.1.1:ffffff00  
+Host IP address                   : 192.168.1.100  
+Gateway IP address                :   
+Run from flash/host (f/h)         : f  
+Default host run file name        : vmlinux  
+Default host flash file name      : bcm963xx_fs_kernel  
+Boot delay (0-9 seconds)          : 1  
+Launch linux/uboot (l/u)          : l  
+Board Id (0-14)                   : F@ST3865b  
+Number of MAC Addresses (1-32)    : 10  
+Base MAC Address                  : 00:10:18:00:00:00  
+PSI Size (1-64) KBytes            : 24  
+Enable Backup PSI [0|1]           : 0  
+System Log Size (0-256) KBytes    : 0  
+Auxillary File System Size Percent: 0  
+Main Thread Number [0|1]          : 0  
+
+BBox3-11ac LEDs(ff)
+*** Press any key to stop auto run (1 seconds) ***
+Auto run second count down: 110
+Initializing UBI to launch u-boot!
+UBI volume uboot has id 1
+Correctable ECC Error detected: addr=0x0014a000, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0014d600, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00150800, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00159200, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00162e00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00163800, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00163e00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00166e00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00170a00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00175600, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00179200, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0017ac00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0017c800, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00181800, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0018d200, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00192e00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0019e400, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0019fc00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001a1400, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001a1a00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001a3e00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001ab600, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001b3400, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001b8a00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001ba200, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001bb400, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001bd800, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001c1c00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001c2400, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001c2600, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001d2000, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001dda00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001e3800, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001e5200, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001e7600, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001e7e00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001e9200, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001ebe00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001ede00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001f4e00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001f8600, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001f8c00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x001fa600, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00202200, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00209800, intrCtrl=0x000000B0, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0020ae00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0020b400, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x0020ca00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00212a00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+Correctable ECC Error detected: addr=0x00214a00, intrCtrl=0x00000090, accessCtrl=0xF7441010
+read 842532 bytes from UBI volume 1
+BBox3-11ac LEDs(80)
+Ubi U-Boot Entry at 0x8ff00000
+Closing network.
+Disabling Switch ports.
+Flushing Receive Buffers...
+0 buffers found.
+Closing DMA Channels.
+Starting program at 0x8ff00000
+
+U-Boot 2011.12
+Version: 5.28.0-full (Feb 12 2016 - 16:14:33) 
+Copyright (C) 2011 - 2013 Sagemcom All rights reserved
+gpio in: 0x40dddf1d 
+board type: 00020010
+board memsize : 0x10000000
+CPU: Broadcom BCM63168D0
+DRAM:  256 MiB
+NAND:  bcm63xxx nand initialization
+handle_acc_control: default CORR ERR threshold  1 bits
+ACC: 16 OOB bytes per 512B ECC step; from ID probe: 16
+reqEccLevel=0, eccLevel=4
+128 MiB
+Creating 1 MTD partitions on "nand0":
+0x0000000c0000-0x000007b00000 : "mtd=1"
+UBI: attaching mtd1 to ubi0
+UBI: physical eraseblock size:   131072 bytes (128 KiB)
+UBI: logical eraseblock size:    126976 bytes
+UBI: smallest flash I/O unit:    2048
+UBI: VID header offset:          2048 (aligned 2048)
+UBI: data offset:                4096
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:00100000
+UBI: fixable bit-flip detected at PEB 2:0
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:00420600
+UBI: fixable bit-flip detected at PEB 27:0
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:01060400
+UBI: fixable bit-flip detected at PEB 125:0
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:01540000
+UBI: fixable bit-flip detected at PEB 164:0
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:01680200
+UBI: fixable bit-flip detected at PEB 174:0
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:03080600
+UBI: fixable bit-flip detected at PEB 382:0
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:05f60000
+UBI: fixable bit-flip detected at PEB 757:0
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:05fe0000
+UBI: fixable bit-flip detected at PEB 761:0
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:06700200
+UBI: fixable bit-flip detected at PEB 818:0
+brcmnand_ctrl_verify_ecc: Correctable ECC error at 00000000:06a40600
+UBI: fixable bit-flip detected at PEB 844:0
+UBI: attached mtd1 to ubi0
+UBI: MTD device name:            "mtd=1"
+UBI: MTD device size:            122 MiB
+UBI: number of good PEBs:        978
+UBI: number of bad PEBs:         0
+UBI: max. allowed volumes:       128
+UBI: wear-leveling threshold:    256
+UBI: number of internal volumes: 1
+UBI: number of user volumes:     7
+UBI: available PEBs:             85
+UBI: total number of reserved PEBs: 893
+UBI: number of PEBs reserved for bad PEB handling: 9
+UBI: max/mean erase counter: 658/158
+Volume bootenv not found!
+*** Warning - bad CRC, using default environment
+
+Net:   BCM63xxx
+Hit any key to stop autoboot:  3  2  1  0 
+sb3: sb3_sagem_init()
+sb3: action: 1007
+sb3: sb3_wait_for_magic()
+sb3: action: 1002
+sb3: sb3_boot( operational )
+sb3: top available addr 0x8f8b0000, ram available = 0xf4b0000 
+sb3: read image operational size=239a000 to address=8d510000
+sb3_load_ubivol: max_load_size=256573440
+Read 37330944 bytes from volume operational to 8d510000
+gsdf ident string OK
+gsdf size OK
+gsdf auth_hash OK
+sb3: image operational has gsdf format
+gsdf ident string OK
+gsdf size OK
+gsdf auth_hash OK
+found a root CA certificate in section 0
+found a secondary certificate in section 1
+certificate chain OK
+root certificate OK  (sagemcom caCert)
+signature OK
+section list OK
+gsdf head_hash OK
+gsdf data_hash OK
+sb3: image operational signature OK
+BCM63xx : unregistering Ethernet driver 
+Disabling Switch ports.
+Flushing Receive Buffers...
+0 buffers found.
+Closing DMA Channels.
+sb3: No pre-boot commands
+sb3: setting kernel args
+bootm 8D52F000 
+## Booting kernel from Legacy Image at 8d52f000 ...
+   Image Name:   scOS SG751162830 (8c.725A)
+   Created:      2021-10-22  22:23:20 UTC
+   Image Type:   MIPS Linux Kernel Image (gzip compressed)
+   Data Size:    2818048 Bytes = 2.7 MiB
+   Load Address: 80010000
+   Entry Point:  804687c0
+   Verifying Checksum ... OK
+   Uncompressing Kernel Image ... OK
+
+Starting kernel ...
+
+Linux version 3.4.11-rt19 (rmm-svce-urd2int04@compil-atr-1) (gcc version 4.8.2 (GCC) ) #1 SMP PREEMPT Fri Oct 22 23:23:10 CET 2021
+F@ST3865b prom init
+CPU revision is: 0002a080 (Broadcom BMIPS4350)
+DSL SDRAM reserved: 0x132000
+Determined physical RAM map:
+ memory: 0fece000 @ 00000000 (usable)
+Zone PFN ranges:
+  DMA      0x00000000 -> 0x00001000
+  Normal   0x00001000 -> 0x0000fece
+Movable zone start PFN for each node
+Early memory PFN ranges
+    0: 0x00000000 -> 0x0000fece
+On node 0 totalpages: 65230
+free_area_init_node: node 0, pgdat 80579e60, node_mem_map 81000000
+  DMA zone: 32 pages used for memmap
+  DMA zone: 0 pages reserved
+  DMA zone: 4064 pages, LIFO batch:0
+  Normal zone: 478 pages used for memmap
+  Normal zone: 60656 pages, LIFO batch:15
+PERCPU: Embedded 7 pages/cpu @81203000 s5376 r8192 d15104 u32768
+pcpu-alloc: s5376 r8192 d15104 u32768 alloc=8*4096
+pcpu-alloc: [0] 0 [0] 1 
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 64720
+Kernel command line: ro noinitrd root=mtd:rootfs init=/etc/preinit ro rootfstype=squashfs console=ttyS0,115200 rootfs_offset=0x002e8000 rootfs_size=0x020b2000 mtdparts=nand:768k(bcm),125184k(partAll),5120k(data) ubi.mtd=ubi part_main=partAll part_boot=partAll image_ubivol=operational board_type=00020010 irqaffinity=0
+UBI image volume: "operational"
+PID hash table entries: 1024 (order: 0, 4096 bytes)
+Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+Primary instruction cache 64kB, VIPT, 4-way, linesize 16 bytes.
+Primary data cache 32kB, 2-way, VIPT, cache aliases, linesize 16 bytes
+Memory: 252552k/260920k available (4503k kernel code, 8368k reserved, 1042k data, 208k init, 0k highmem)
+Preemptible hierarchical RCU implementation.
+NR_IRQS:128
+console [ttyS0] enabled
+Calibrating delay loop... 397.31 BogoMIPS (lpj=198656)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+--Kernel Config--
+  SMP=1
+  PREEMPT=1
+  DEBUG_SPINLOCK=0
+  DEBUG_MUTEXES=0
+Broadcom Logger v0.1 Oct 22 2021 23:17:53
+CPU revision is: 0002a080 (Broadcom BMIPS4350)
+Primary instruction cache 64kB, VIPT, 4-way, linesize 16 bytes.
+Primary data cache 32kB, 2-way, VIPT, cache aliases, linesize 16 bytes
+Brought up 2 CPUs
+NET: Registered protocol family 16
+Internal 1P2 VREG will be shutdown if unused...Unused, turn it off (000080ba-000080c8=-14<300)
+registering PCI controller with io_map_base unset
+registering PCI controller with io_map_base unset
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+PCI host bridge to bus 0000:00
+pci_bus 0000:00: root bus resource [mem 0xa0f00000-0xa0ffffff]
+pci_bus 0000:00: root bus resource [io  0xa2000000-0xa200ffff]
+pci 0000:00:00.0: [14e4:435f] type 00 class 0x028000
+pci 0000:00:00.0: reg 10: [mem 0x10004000-0x10005fff]
+pci 0000:00:09.0: [14e4:6300] type 00 class 0x0c0310
+pci 0000:00:09.0: reg 10: [mem 0x10002600-0x100026ff]
+pci 0000:00:0a.0: [14e4:6300] type 00 class 0x0c0320
+pci 0000:00:0a.0: reg 10: [mem 0x10002500-0x100025ff]
+PCI host bridge to bus 0000:01
+pci_bus 0000:01: root bus resource [mem 0x11000000-0x11efffff]
+pci_bus 0000:01: root bus resource [??? 0x00000000 flags 0x0]
+pci 0000:01:00.0: [14e4:6326] type 01 class 0x060400
+pci 0000:01:00.0: PME# supported from D0 D3hot
+pci 0000:01:00.0: PCI bridge to [bus 02-02]
+bcmhs_spi bcmhs_spi.1: master is unqueued, this is deprecated
+bcmleg_spi bcmleg_spi.0: master is unqueued, this is deprecated
+skbFreeTask created successfully
+gbpm_do_work scheduled
+[0;34mBLOG v3.0 Initialized[0m
+BLOG Rule v1.0 Initialized
+Broadcom IQoS v0.1 Oct 22 2021 23:21:46 initialized
+Broadcom GBPM v0.1 Oct 22 2021 23:21:47 initialized
+NET: Registered protocol family 8
+NET: Registered protocol family 20
+Switching to clocksource MIPS
+NET: Registered protocol family 2
+IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+TCP: reno registered
+UDP hash table entries: 128 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 128 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+PCI: CLS mismatch (64 != 16), using 16 bytes
+bcm_tstamp initialized, (hpt_freq=200000000 2us_div=200 2ns_mult=5 2ns_shift=0)
+squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Registering unionfs 2.5.12 (for 3.4.70)
+jffs2: version 2.2. (NAND) © 2001-2006 Red Hat, Inc.
+fuse init (API version 7.18)
+msgmni has been set to 493
+io scheduler noop registered (default)
+Broadcom NAND controller (BrcmNand Controller)
+mtd->oobsize=0, mtd->eccOobSize=0
+NAND_CS_NAND_XOR=00000000
+B4: NandSelect=40000001, nandConfig=15142200, chipSelect=0
+brcmnand_read_id: CS0: dev_id=2cf18095
+After: NandSelect=40000001, nandConfig=15142200
+Block size=00020000, erase shift=17
+NAND Config: Reg=15142200, chipSize=128 MB, blockSize=128K, erase_shift=11
+busWidth=1, pageSize=2048B, page_shift=11, page_mask=000007ff
+timing1 not adjusted: 6574845b
+timing2 not adjusted: 00001e96
+BrcmNAND mfg 2c f1 MICRON MT29F1G08ABA 128MB on CS0
+
+Found NAND on CS0: ACC=f7441010, cfg=15142200, flashId=2cf18095, tim1=6574845b, tim2=00001e96
+BrcmNAND version = 0x0400 128MB @00000000
+brcmnand_scan: B4 nand_select = 40000001
+brcmnand_scan: After nand_select = 40000001
+handle_acc_control: default CORR ERR threshold  1 bits
+ACC: 16 OOB bytes per 512B ECC step; from ID probe: 16
+page_shift=11, bbt_erase_shift=17, chip_shift=27, phys_erase_shift=17
+Brcm NAND controller version = 4.0 NAND flash size 128MB @18000000
+ECC layout=brcmnand_oob_bch4_2k
+brcmnand_scan:  mtd->oobsize=64
+brcmnand_scan: oobavail=35, eccsize=512, writesize=2048
+brcmnand_scan, eccsize=512, writesize=2048, eccsteps=4, ecclevel=4, eccbytes=7
+-->brcmnand_default_bbt
+brcmnand_default_bbt: bbt_td = bbt_slc_bch4_main_descr
+Bad block table Bbt0 found at page 0000ffc0, version 0x01 for chip on CS0
+Bad block table 1tbB found at page 0000ff80, version 0x01 for chip on CS0
+brcmnand_reset_corr_threshold: default CORR ERR threshold  1 bits for CS0
+brcmnand_reset_corr_threshold: CORR ERR threshold changed to 3 bits for CS0
+brcmnandCET: Status -> Deferred
+Master size=08000000
+rootfs_ofs=0xffffffff, part1ofs=0x00000080, part2ofs=0x00007b00
+Part[0] name=bcmfs, size=20000, ofs=0
+Part[1] name=bcmfs_update, size=a0000, ofs=20000
+Part[2] name=ubi, size=7a40000, ofs=c0000
+Part[3] name=data, size=400000, ofs=7b00000
+Part[4] name=nvram, size=20000, ofs=0
+Creating 5 MTD partitions on "brcmnand.0":
+0x000000000000-0x000000020000 : "bcmfs"
+0x000000020000-0x0000000c0000 : "bcmfs_update"
+0x0000000c0000-0x000007b00000 : "ubi"
+0x000007b00000-0x000007f00000 : "data"
+0x000000000000-0x000000020000 : "nvram"
+UBI: attaching mtd2 to ubi0
+UBI: physical eraseblock size:   131072 bytes (128 KiB)
+UBI: logical eraseblock size:    126976 bytes
+UBI: smallest flash I/O unit:    2048
+UBI: VID header offset:          2048 (aligned 2048)
+UBI: data offset:                4096
+UBI: max. sequence number:       154573
+UBI: attached mtd2 to ubi0
+UBI: MTD device name:            "ubi"
+UBI: MTD device size:            122 MiB
+UBI: number of good PEBs:        978
+UBI: number of bad PEBs:         0
+UBI: number of corrupted PEBs:   0
+UBI: max. allowed volumes:       128
+UBI: wear-leveling threshold:    4096
+UBI: number of internal volumes: 1
+UBI: number of user volumes:     7
+UBI: available PEBs:             85
+UBI: total number of reserved PEBs: 893
+UBI: number of PEBs reserved for bad PEB handling: 9
+UBI: max/mean erase counter: 658/158
+UBI: image sequence number:  0
+UBI: background thread "ubi_bgt0d" started, PID 225
+Add UBI volume partitions: name=secondaryboot
+Add UBI volume partitions: name=uboot
+Add UBI volume partitions: name=permanent_param
+Add UBI volume partitions: name=rescue
+Add UBI volume partitions: name=operational
+Creating 3 MTD partitions on "operational":
+0x000000000000-0x00000001f000 : "firm_header"
+0x00000001f000-0x000000307000 : "kernel"
+0x0000002e8000-0x00000239a000 : "rootfs"
+Add UBI volume partitions: name=filesystem1
+Add UBI volume partitions: name=gui
+Creating 2 MTD partitions on "gui":
+0x000000000000-0x00000001f000 : "gui_header"
+0x00000001f000-0x000000117000 : "guifs"
+tun: Universal TUN/TAP device driver, 1.6
+tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+PPP generic driver version 2.4.2
+PPP BSD Compression module registered
+PPP Deflate Compression module registered
+NET: Registered protocol family 24
+usbcore: registered new interface driver cdc_acm
+cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+brcmboard: brcm_board_init entry
+DYING GASP IRQ Initialized and Enabled
+Serial: BCM63XX driver $Revision: 3.00 $
+[0;33mMagic SysRq with Auxilliary trigger char enabled (type ^ h for list of supported commands)[0m
+ttyS0 at MMIO 0xb0000180 (irq = 13) is a BCM63XX
+ttyS1 at MMIO 0xb00001a0 (irq = 42) is a BCM63XX
+Total # RxBds=1448
+bcmPktDmaBds_init: Broadcom Packet DMA BDs initialized
+
+bcmPktDma_init: Broadcom Packet DMA Library initialized
+IPSEC SPU: SUCCEEDED 
+GACT probability NOT on
+Mirror/redirect action on
+u32 classifier
+    input device check on
+    Actions configured
+gre: GRE over IPv4 demultiplexor driver
+TCP: cubic registered
+Initializing XFRM netlink socket
+NET: Registered protocol family 10
+NET: Registered protocol family 17
+NET: Registered protocol family 15
+Bridge firewalling registered
+Initializing MCPD Module
+Ebtables v2.0 registered
+ebt_time registered
+ebt_ftos registered
+ebt_wmm_mark registered
+8021q: 802.1Q VLAN Support v1.8
+VFS: Mounted root (squashfs filesystem) readonly on device 31:12.
+Freeing unused kernel memory: 208k freed
+kernel.hotplug = /sbin/mdev
+- preinit -
+- regular preinit -
+- init -
+UBIFS: recovery needed
+UBIFS: recovery completed
+UBIFS: mounted UBI device 0, volume 5, name "filesystem1"
+UBIFS: file system size:   11046912 bytes (10788 KiB, 10 MiB, 87 LEBs)
+UBIFS: journal size:       1015809 bytes (992 KiB, 0 MiB, 6 LEBs)
+UBIFS: media format:       w4/r0 (latest is w4/r0)
+UBIFS: default compressor: lzo
+UBIFS: reserved for root:  521772 bytes (509 KiB)
+
+       _   _ _____ _    _  ___ 
+      | | | |  __ \ |  | |/ __)
+      | |_| | |  \/ |  | / /__ 
+      |  _  | | __| |/\| |  _ \
+      | | | | |_\ \  /\  / (_) )
+      \_| |_/\____/\/  \/ \___/
+
+   Embedded Sagemcom Linux Distribution
+ ---------------------------------------------------
+
+  Version: SG751162830 (8c.725A)
+  Built: by rmm-svce-urd2int04@compil-atr-1 on Fri Oct 22 22:41:38 CET 2021
+
+(none) login: unionfs: new lower inode mtime (bindex=1, name=tmp)
+wlcsm: module license 'Proprietary' taints kernel.
+Disabling lock debugging due to kernel taint
+bcmxtmrt: Broadcom BCM3168D0 ATM/PTM Network Device v0.9 Oct 22 2021 22:40:13
+Broadcom Ingress QoS Module  Char Driver v0.1 Oct 22 2021 22:37:56 Registered<243>[0m
+
+Broadcom Ingress QoS ver 0.1 initialized
+BPM: tot_mem_size=268435456B (256MB), buf_mem_size <20%> =53687080B (51MB), num of buffers=26630, buf size=2016
+Broadcom BPM Module Char Driver v0.1 Oct 22 2021 22:37:49 Registered<244>[0m
+NBUFF v1.0 Initialized
+[0;36;44mInitialized fcache state[0m
+[0;36;44mBroadcom Packet Flow Cache  Char Driver v2.2 Oct 22 2021 22:37:56 Registered<242>[0m
+Created Proc FS /procfs/fcache
+[0;36;44mBroadcom Packet Flow Cache registered with netdev chain[0m
+[0;36;44mBroadcom Packet Flow Cache learning via BLOG enabled.[0m
+[0;35m[FHW]  pktDbgLvl[0xc026e354]=0[0m
+[0;34m[FHW]  fhw_construct: [0m
+[0;36;44mInitialized Fcache HW accelerator layer state[0m
+flwStatsThread created
+[0;36;44mConstructed Broadcom Packet Flow Cache v2.2 Oct 22 2021 22:37:56[0m
+chipId 0x631680D0
+Broadcom Forwarding Assist Processor (FAP) Char Driver v0.1 Oct 22 2021 22:37:49 Registered <241>
+Enabling SMISBUS PHYS_FAP_BASE[0] is 0x10c01000
+FAP Soft Reset Done
+4ke Reset Done
+Enabling SMISBUS PHYS_FAP_BASE[1] is 0x10c01000
+FAP Soft Reset Done
+4ke Reset Done
+FAP Debug values at 0xab924270 0xab9a4270
+fapGso_LoopBkThread created successfully
+Allocated FAP0 SWQ_HOST2FAP_GSO_LOOPBACK_Q mem=af224000 : 16384 bytes
+Allocated FAP0 SWQ_FAP2HOST_GSO_LOOPBACK_Q mem=afbd0000 : 16384 bytes
+GSO LOOPBACK Cached HOST2FAP Q INFO:
+ Swq =b0825ef0 qStart=af224000 qEnd=af228000 msgSize=4 dqm=18 fapId=0
+GSO LOOPBACK Cached FAP2HOST Q INFO:
+ Swq =b0825ec0 qStart=afbd0000 qEnd=afbd4000 msgSize=2 dqm=19 fapId=0
+Allocated FAP0 SWQ_FAP2HOST_WFD_Q mem=af1da000 : 7200 bytes
+Allocated FAP1 SWQ_FAP2HOST_WFD_Q mem=abfae000 : 7200 bytes
+Allocated FAP0 SWQ_FAP2HOST_WFD_Q mem=af1fa000 : 7200 bytes
+Allocated FAP1 SWQ_FAP2HOST_WFD_Q mem=af1ee000 : 7200 bytes
+Allocated FAP0 TM SDRAM Queue Storage (ab935300) : 390144 bytes @ aba00000
+Allocated FAP1 TM SDRAM Queue Storage (ab9b5300) : 390144 bytes @ aba80000
+[0;34m[NTC fapProto] fapReset  : Reset FAP Protocol layer[0m
+[FAP0] DSPRAM : stack <0x80000000><1792>, global <0x80000700><4576>, free <1824>, total<8192>
+[FAP1] DSPRAM : stack <0x80000000><1792>, global <0x80000700><4576>, free <1824>, total<8192>
+[FAP0] PSM : addr<0x80002000>, used <24464>, free <112>, total <24576>
+[FAP1] PSM : addr<0x80002000>, used <24464>, free <112>, total <24576>
+[FAP0] DQM : availableMemory 14668 bytes, nextByteAddress 0xE00048B0
+[FAP1] DQM : availableMemory 14668 bytes, nextByteAddress 0xE00048B0
+[FAP0] Initializing FAP4KE GSO LOOPBACK on fapIdx=0 ...
+[FAP1] IC Timer started
+[FAP0] SWQ: HOST2FAP_GSO_LOOPBACK 
+[FAP1] FAP4KE WFD Init Done...
+[FAP0] >>>>------------------
+[FAP0] swq =80007ef0 msgSize =4 words , maxDepth=1024
+[FAP0] qStart =af224000 qEnd=af228000
+[FAP0] rdPtr =af224000 wrPtr=af224000 count=0
+[FAP0]  swq->interrupts 0 processed =0 dropped =0 
+[FAP0]  Associated DQM=18 dir HOST2FAP
+[FAP0] ------------------<<<<
+[FAP0] SWQ: FAP2HOST_GSO_LOOPBACK 
+[FAP0] >>>>------------------
+[FAP0] swq =80007ec0 msgSize =2 words , maxDepth=2048
+[FAP0] qStart =afbd0000 qEnd=afbd4000
+[FAP0] rdPtr =afbd0000 wrPtr=afbd0000 count=0
+[FAP0]  swq->interrupts 0 processed =0 dropped =0 
+[FAP0]  Associated DQM=19 dir FAP2HOST
+[FAP0] ------------------<<<<
+[FAP0] FAP4KE GSO LOOPBACK Init Done...
+[FAP0] IC Timer started
+[FAP0] FAP4KE WFD Init Done...
+[FAP1] FAP BPM Initialized.
+[FAP0] FAP BPM Initialized.
+[0;36;44mBroadcom Packet Flow Cache HW acceleration enabled.[0m
+fapDrv_construct: FAP0: pManagedMemory=b0820650. wastage 8 bytes
+fapDrv_construct: FAP1: pManagedMemory=b0a20650. wastage 8 bytes
+bcmPktDma_bind: FAP Driver binding successfull
+[FAP0] FAP TM: ON
+[FAP1] FAP TM: ON
+bcmxtmcfg: bcmxtmcfg_init entry
+adsl: adsl_init entry
+Broadcom BCM63168D0 Ethernet Network Device v0.1 Oct 22 2021 22:40:04
+Broadcom GMAC Char Driver v0.1 Oct 22 2021 22:40:12 Registered<249>[0m
+Broadcom GMAC Driver v0.1 Oct 22 2021 22:40:12 Initialized
+fapDrv_psmAlloc: fapIdx=1, size: 4800, offset=b0a20650 bytes remaining 7000
+ETH Init: Ch:0 - 200 tx BDs at 0xb0a20650
+fapDrv_psmAlloc: fapIdx=0, size: 4800, offset=b0820650 bytes remaining 7000
+ETH Init: Ch:1 - 200 tx BDs at 0xb0820650
+fapDrv_psmAlloc: wastage 8 bytes
+fapDrv_psmAlloc: fapIdx=0, size: 4808, offset=b0821910 bytes remaining 2184
+ETH Init: Ch:0 - 600 rx BDs at 0xb0821910
+[FAP0] enetRxChannel 0
+fapDrv_psmAlloc: wastage 8 bytes
+fapDrv_psmAlloc: fapIdx=1, size: 4808, offset=b0a21910 bytes remaining 2184
+ETH Init: Ch:1 - 600 rx BDs at 0xb0a21910
+[FAP1] enetRxChannel 1
+dgasp: kerSysRegisterDyingGaspHandler: bcmsw registered 
+eth0: <Ext sw port: 1> <Logical : 09> PHY_ID <0x20180001 : 0x01> MAC : 00:00:00:00:00:01
+eth1: <Ext sw port: 2> <Logical : 10> PHY_ID <0x20180002 : 0x02> MAC : 00:00:00:00:00:01
+eth2: <Ext sw port: 3> <Logical : 11> PHY_ID <0x20180003 : 0x03> MAC : 00:00:00:00:00:01
+eth3: <Ext sw port: 4> <Logical : 12> PHY_ID <0x20180004 : 0x04> MAC : 00:00:00:00:00:01
+eth4: <Ext sw port: 5> <Logical : 13> PHY_ID <0x02600e00 : 0x00> MAC : 00:00:00:00:00:01
+eth5: <Int sw port: 3> <Logical : 03> PHY_ID <0x0010000c : 0x0c> MAC : 00:00:00:00:00:01
+Ethernet Auto Power Down and Sleep: Enabled
+All Port Bit Map: 0x3e08: eth5,eth0,eth1,eth2,eth3,eth4
+   Chip WAN Only Ports 0000, Defined WAN Only Ports 0000, WAN Only Port Result: 0x0000:
+   Chip WAN Preffered Ports 0008, Defined WAN Preffered Ports 0000, WAN Preffered Port Result: 0x0008:eth5
+   Chip LAN Only Ports 0000, Defined LAN Only Ports 0000, LAN Only Port Result: 0x0000:
+   WAN/LAN Both Capable Ports 0x3e00:eth0,eth1,eth2,eth3,eth4
+[0;34m[NTC arl] arlEnable : Enabled ARL binding to FAP[0m
+Broadcom Address Resolution Logic Processor (ARL) Char Driver v0.1 Oct 22 2021 22:37:49 Registered <245>
+[1m[34mWifi Forwarding Driver is initialized![0m
+--SMP support
+wl: dsl_tx_pkt_flush_len=338
+wl: norm_wmark_tot=14371, pktc_wmark_tot=14371
+wl: passivemode=1
+wl: napimode=0
+Neither SPROM nor OTP has valid image
+wl:srom/otp not programmed, using main memory mapped srom info(wombo board)
+wl: ID=sb/0/
+wl: ID=sb/0/
+wl: loading /etc/wlan/bcm6362_map.bin
+srom rev:8
+wl0: allocskbmode=1 currallocskbsz=1024
+[1m[34m wfd_bind: Dev wl%d wfd_idx 0 wl_radio_idx 0 Type skb configured WFD thread wfd0-thrd minQId/maxQId (20/1073741844), status (0) qmask 0x3[0m
+Instantiating WFD 0 thread
++++++ Added gso loopback support for dev=wl0 <8b86e000>
+wfd_registerdevice Successfully registered dev wl0 ifidx 0 wfd_idx 0
+wl0: Broadcom BCM435f 802.11 Wireless Controller 7.14.164.15.cpe4.16L04.1-kdb
+dgasp: kerSysRegisterDyingGaspHandler: wl0 registered 
+PCIe: No device found - Powering down
+Driver LED and BUTTON init .....
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+[HAL-BSP]: kSysButtonManaged[41]: WARNING -> Button name >= Max(9)
+ Driver LED and BUTTON ok .....
+nf_ct_rtsp: Successfully created nf_conntrack_rtsp task
+Energy Efficient Ethernet: Enabled
+eth4 (Ext switch port: 5) (Logical Port: 13) Link UP 1000 mbps full duplex
+Endpoint: endpoint_init entry ( MS 4.16L.04 )
+Endpoint: HAL-BSP : bsp board  found ... SagemcomFast5336v_BBOX3
+Endpoint: Try to find table matching with : [BaseBoardId=F@ST_63168 / VoiceBoardId=SI32260_DECT] ...
+ SUCCESS
+Endpoint: endpoint_init COMPLETED
+Starting Quantenna FW PreLoading: 
+--OUTPUT_DROP--IN= OUT=eth4 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=96 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 
+--OUTPUT_DROP--IN= OUT=eth4.12 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=96 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 
+--OUTPUT_DROP--IN= OUT=eth4 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ffa9:b508 LEN=64 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+--OUTPUT_DROP--IN= OUT=eth4.12 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0001:ffa9:b508 LEN=64 TC=0 HOPLIMIT=255 FLOWLBL=0 PROTO=ICMPv6 TYPE=135 CODE=0 
+--OUTPUT_DROP--IN= OUT=eth4.12 SRC=0000:0000:0000:0000:0000:0000:0000:0000 DST=ff02:0000:0000:0000:0000:0000:0000:0016 LEN=96 TC=0 HOPLIMIT=1 FLOWLBL=0 PROTO=ICMPv6 TYPE=143 CODE=0 
+bcmxtmcfg: DS xDSL G.inp Mode = DISABLED 
+bcmxtmcfg: xDSL G.Fast Mode = DISABLED 
+fapDrv_psmAlloc: fapIdx=1, size: 1600, offset=b0a22be0 bytes remaining 584
+XTM Init: Ch:0 - 200 rx BDs at 0xb0a22be0
+fapDrv_psmAlloc: fapIdx=1, size: 128, offset=b0a23220 bytes remaining 456
+XTM Init: Ch:1 - 16 rx BDs at 0xb0a23220
+bcmxtmrt: PTM/ATM Non-Bonding Mode configured in system
+bcmxtmcfg: Out of sequence call to XTM_ASM_HANDLER::Uninitialize().  Recovering.
+bcmxtmcfg: ATM Bonding configured in system. Fallback mode = Enabled 
+bcmxtmcfg: Bonding State is DATA_IDLE 
+bcmxtmcfg: SID MODE SET to 12 BIT MODE 
+bcmxtmcfg: ATM Bonding Mgmt Log Area = 8fb84d14 
+bcmxtmcfg: gulXtmMonitorValid(0xc03abfd4) = 1 
+*** dslThread dslPid=1163
+BcmAdsl_Initialize=0xC041B008, g_pFnNotifyCallback=0xC045AEF4
+lmemhdr[2]=0x100CE000, pAdslLMem[2]=0x100CE000
+AdslCoreSetSdramImageAddr: lmem2(0xce000) vs ADSL_PHY_SDRAM_BIAS(0xce000); origAddr=0xAFECE000 newAddr=0xAFECE000
+pSdramPHY=0xAFFFFFF8, 0xF7BEF777 0xA37E4E9F
+*** XfaceOffset: 0x5FF90 => 0x5FF90 ***
+*** PhySdramSize got adjusted: 0xF60C4 => 0x12A060 ***
+AdslCoreSharedMemInit: shareMemSize=32640(32640)
+AdslCoreHwReset:  pLocSbSta=86230000 bkupThreshold=3072
+AdslCoreHwReset:  AdslOemDataAddr = 0xAFFB4A48, time=15 ms
+VersionInfo: A2pv6F039y3.d26u
+***BcmDiagsMgrRegisterClient: 0 ***
+dgasp: kerSysRegisterDyingGaspHandler: dsl0 registered 
+Line 0: xDSL link down
+PCI: Enabling device 0000:00:0a.0 (0000 -> 0002)
+ehci_hcd 0000:00:0a.0: Enabling legacy PCI PM
+PCI: Enabling device 0000:00:09.0 (0000 -> 0002)
+00:01:51 Got config file from /etc/telephonyProfiles.d/BEL_profile.xml (len=13074), validating....
+
+00:01:51 tpUpdateLocaleProfile: config file from /etc/telephonyProfiles.d/BEL_profile.xml is OK for country 1
+BOS: Enter bosInit 
+BOS: Exit bosInit 
+******* DSP: Found BCM63268 *******
+******* DSP: In PCM Mode *******
+******* DSP: PCM running in 16 bit mode *******
+gInterruptCounter     = 0xC1AFFA34 
+gInterruptErrors      = 0xC1AFFA30 
+gNextRxDesc           = 0xC1AFFB68 
+gNextTxDesc           = 0xC1AFFB6C 
+gDectTestMode         = 0xc1affba0 
+dectBuffStart         = 0xc1affb70 
+gDectRxOutOfSyncCounter = 0xc1affbb4 
+gDectTxOutOfSyncCounter = 0xc1affbb8 
+32 ms ECAN tail-length
+*** gStartRxDesc[0] = 0xA62C6000 
+*** gBufferSizeBytes = 640 
+*** gStartTxDesc[0] = 0xA62C67D0 
+halPcmInit 389 nextTxDesc = 0xA62C67D0 
+halPcmInit 389 nextTxDesc = 0xA62C67D8 
+halPcmInit 393 Ownership for TX desc not set. Use this buffer. 
+Binding 0x8f92c958
+[0;35m[DBG xdrv_slic] slicSi32261Init: (ts: 51s 704ms):SLIC: Starting 32261 device and line initializion...[0m
+[0;35m[DBG xdrv_slic] deviceSiLabsReset: (ts: 52s 226ms):SLIC: Reset applied on GPIO pin 14[0m
+[0;35m[DBG xdrv_slic] initSiLabsDevice: (ts: 52s 245ms):SLIC: Initializing SiLabs device 0[0m
+[0;35m[DBG xdrv_slic] initSiLabsDevice: (ts: 52s 259ms):SLIC: SiLabs device BOM Type: 0[0m
+Si3226x: Channel 0 : Type = PROSLIC
+Si3226x: Channel 1 : Type = PROSLIC
+Si3226x: Channel 0 : Chip Type 28
+Si3226x: Channel 0 : Chip Rev 3
+Si3226x: Channel 1 : Chip Type 28
+Si3226x: Channel 1 : Chip Rev 3
+ProSLIC:loading patch: 06182014
+ProSLIC:loading patch: 06182014
+Si3226x: VBAT @ 50ms = 57.853 v
+Si3226x: VBAT Up = 57.853 v
+Si3226x: VBAT @ 50ms = 58.63 v
+Si3226x: VBAT Up = 58.63 v
+[0;35m[DBG xdrv_slic] initSiLabsDevice: (ts: 53s 737ms):SLIC: SiLabs device 0 initialized OK[0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 745ms):SLIC: SiLabs Locale set to 2[0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 753ms):SLIC: Initializing SiLabs FXS line 0[0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 788ms):FXS channel 0 Rx Gain: -110[0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 796ms):FXS channel 0 Tx Gain: -40[0m
+ProSLIC:PCMStart
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 822ms):SLIC: FXS line 0 RX timeslot = 0 [0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 830ms):SLIC: FXS line 0 TX timeslot = 0 [0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 839ms):SLIC: SiLabs FXS line 0 initialized OK[0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 848ms):SLIC: Initializing SiLabs FXS line 1[0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 879ms):FXS channel 1 Rx Gain: -110[0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 887ms):FXS channel 1 Tx Gain: -40[0m
+ProSLIC:PCMStart
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 931ms):SLIC: FXS line 1 RX timeslot = 1 [0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 945ms):SLIC: FXS line 1 TX timeslot = 1 [0m
+[0;35m[DBG xdrv_slic] initSiLabsLines: (ts: 53s 959ms):SLIC: SiLabs FXS line 1 initialized OK[0m
+[0;35m[DBG xdrv_slic] slicSi32261Init: (ts: 53s 979ms):SLIC: 32261 device 0 and FXS initializion COMPLETED OK ![0m
+boardHalInit completed
+DSP: Interrupt Ids
+---------------
+InterruptId/Location      = 42/HIGH 
+
+DSP: Interrupt Masks
+---------------
+IrqMask                   = 0x00007000 
+IrqMaskLow                = 0x83806680 
+IrqMask1                  = 0x00000400 
+IrqMaskLow1               = 0x00000020 
+
+DSP: Interrupt Status
+-----------------
+IrqStatus                 = 0x00100800 
+IrqStatusLow              = 0x00038100 
+IrqStatus1                = 0x00100000 
+IrqStatusLow1             = 0x00038100 
+EndpointInit completed
+00:01:54 Endpoint Event task started with pid 1347...
+
+00:01:54 Endpoint Packet task started with pid 1347 ...
+
+00:01:54  RTP read thread started with pid 1347 
+
+00:01:54  RTP read thread started with pid 1347 
+
+00:01:54 rtpInit: RTCP task created, taskId = 1970447648
+00:01:54  RTP read thread started with pid 1347 
+
+00:01:54  RTP read thread started with pid 1347 
+
+00:01:54  RTP read thread started with pid 1347 
+
+00:01:54  RTCP thread started with pid 1347 
+
+00:01:54  RTP read thread started with pid 1347 
+
+00:01:54  RTP read thread started with pid 1347 
+
+00:01:54  RTP read thread started with pid 1347 
+
+Stopping Quantenna FW PreLoading: 
+
+       _   _ _____ _    _  ___ 
+      | | | |  __ \ |  | |/ __)
+      | |_| | |  \/ |  | / /__ 
+      |  _  | | __| |/\| |  _ \
+      | | | | |_\ \  /\  / (_) )
+      \_| |_/\____/\/  \/ \___/
+
+   Embedded Sagemcom Linux Distribution
+ ---------------------------------------------------
+
+  Version: SG751162830 (8c.725A)
+  Built: by rmm-svce-urd2int04@compil-atr-1 on Fri Oct 22 22:41:38 CET 2021
+
+mymodem login: 
